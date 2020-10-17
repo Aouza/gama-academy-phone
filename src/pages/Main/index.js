@@ -13,12 +13,12 @@ import {
 const Main = () => {
   const [valueScreen, setValueScreen] = useState([]);
 
-  const handleClickButtons = (data) => {
+  const handleClickButtons = (e) => {
     // e.target.value.map((value, index) => {
     //   console.log(value, index);
     // });
 
-    console.log(data);
+    setValueScreen(e.target.value[0]);
 
     // for (let i = 0; i < e.target.value.length; i++) {
     //   console.log(e.target.value[i]);
@@ -39,7 +39,7 @@ const Main = () => {
               key={value.number}
               text={`${value.number} ${value.type.join("")}`}
               value={value.type}
-              onClick={() => handleClickButtons(value.type)}
+              onClick={handleClickButtons}
             />
           ))}
         </WrapperButtons>
