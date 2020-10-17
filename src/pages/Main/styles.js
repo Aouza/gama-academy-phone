@@ -1,12 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
   height: calc(100vh - 4rem);
-  width: 100vw;
 `;
 
 export const BoxCellphone = styled.div`
