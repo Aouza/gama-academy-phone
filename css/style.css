@@ -20,7 +20,7 @@ header{
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    width: 100px;
+    width: 150px;
     counter-reset: suma;
     border : 1px solid #666;
     border-radius: 0.5rem;
@@ -31,7 +31,7 @@ header{
     order: -1;
     color: white;
     text-align: right;
-    background: steelblue;
+    background: #A100FF;
     padding-right: 0.5rem;
     font-weight: bold;
     margin-bottom: 0;
@@ -50,7 +50,10 @@ header{
   label {
     cursor: pointer;
     border: 1px solid #ddd;
-    text-align: center
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.6em;
+    padding: 5px 15px;
   }
   
   input {
