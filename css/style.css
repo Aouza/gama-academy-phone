@@ -1,10 +1,21 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+header{
+    width: 100%;
+    background-color: #A100FF;
+    color: white;
+    text-align: center;
+    height: 150px;
+    line-height: 150px;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
     display:flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-  }
-  
+}
+ 
   .cel {
     display: flex;
     flex-direction: column;
@@ -85,3 +96,15 @@ body {
   input:nth-of-type(9):checked {
     counter-increment: suma 9;
   }
+
+  footer {
+    width: 100%;
+    background-color: #A100FF;
+    color: white;
+    text-align: center;
+    height: 150px;
+    line-height: 150px;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+  }
+
