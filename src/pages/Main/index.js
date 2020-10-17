@@ -18,15 +18,15 @@ const Main = () => {
         </WrapperScreen>
 
         <WrapperButtons>
-          <Button value="abc" />
-          <Button value="abc" />
-          <Button value="abc" />
-          <Button value="abc" />
-          <Button value="abc" />
-          <Button value="abc" />
-          <Button value="abc" />
-          <Button value="abc" />
-          <Button value="abc" />
+          <Button value="1" />
+          <Button value="2abc" />
+          <Button value="3def" />
+          <Button value="4ghi" />
+          <Button value="5jkl" />
+          <Button value="6mno" />
+          <Button value="7pqrs" />
+          <Button value="8tuv" />
+          <Button value="9xyzw" />
         </WrapperButtons>
       </BoxCellphone>
     </Container>
