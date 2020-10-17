@@ -15,7 +15,7 @@ const Main = () => {
       <BoxCellphone>
         <WrapperScreen>
           <Screen>
-            <p>Number...</p>
+            <input readOnly></input>
           </Screen>
         </WrapperScreen>
 

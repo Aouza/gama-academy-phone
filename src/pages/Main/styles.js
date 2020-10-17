@@ -8,13 +8,8 @@ export const Container = styled.div`
 `;
 
 export const BoxCellphone = styled.div`
-<<<<<<< HEAD
-  background-color: #A100FF;
+  background-color: white;
   height: 30rem;
-=======
-  background-color: #44475a;
-  height: 28rem;
->>>>>>> 0d7b9e3aa820bbde7cb5d57b45e8b620d68328f2
   display: flex;
   border-radius: 2rem;
   overflow: hidden;
