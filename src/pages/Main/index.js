@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { buttonsValues } from "../../services/api";
 import Button from "../../components/Button";
 
 import {
@@ -10,25 +11,37 @@ import {
 } from "./styles";
 
 const Main = () => {
+  const [valueScreen, setValueScreen] = useState([]);
+
+  const handleClickButtons = (data) => {
+    // e.target.value.map((value, index) => {
+    //   console.log(value, index);
+    // });
+
+    console.log(data);
+
+    // for (let i = 0; i < e.target.value.length; i++) {
+    //   console.log(e.target.value[i]);
+
+    // }
+  };
+
   return (
     <Container>
       <BoxCellphone>
         <WrapperScreen>
-          <Screen>
-            <p>Number...</p>
-          </Screen>
+          <Screen>{valueScreen}</Screen>
         </WrapperScreen>
 
         <WrapperButtons>
-          <Button value="abc" />
-          <Button value="abc" />
-          <Button value="abc" />
-          <Button value="abc" />
-          <Button value="abc" />
-          <Button value="abc" />
-          <Button value="abc" />
-          <Button value="abc" />
-          <Button value="abc" />
+          {buttonsValues.map((value) => (
+            <Button
+              key={value.number}
+              text={`${value.number} ${value.type.join("")}`}
+              value={value.type}
+              onClick={() => handleClickButtons(value.type)}
+            />
+          ))}
         </WrapperButtons>
       </BoxCellphone>
     </Container>
