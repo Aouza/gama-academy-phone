@@ -10,7 +10,7 @@ export const Container = styled.div`
 `;
 
 export const BoxCellphone = styled.div`
-  background-color: #44475a;
+  background-color: #A100FF;
   height: 30rem;
   display: flex;
   border-radius: 5rem;
