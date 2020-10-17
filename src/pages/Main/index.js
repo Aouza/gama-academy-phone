@@ -14,7 +14,9 @@ const Main = () => {
     <Container>
       <BoxCellphone>
         <WrapperScreen>
-          <Screen>Numbers...</Screen>
+          <Screen>
+            <p>Number...</p>
+          </Screen>
         </WrapperScreen>
 
         <WrapperButtons>
