@@ -1,7 +1,12 @@
 import React from "react";
+import Main from "./pages/Main";
 
-function App() {
-  return <h1>Cellphone... teste</h1>;
-}
+const App = () => {
+  return (
+    <>
+      <Main />
+    </>
+  );
+};
 
 export default App;
